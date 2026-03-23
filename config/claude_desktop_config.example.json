@@ -1,0 +1,9 @@
+{
+  "_comment": "Claude Desktop MCP config — copy to ~/Library/Application Support/Claude/claude_desktop_config.json",
+  "_docs": "Replace YOUR_ORG_ACCOUNT with your Snowflake org-account identifier (no region suffix)",
+  "mcpServers": {
+    "snowflake-banking": {
+      "url": "https://YOUR_ORG_ACCOUNT.snowflakecomputing.com/api/v2/databases/MCP_DEMO_DB/schemas/MCP_SCHEMA/mcp-servers/MCP_BANKING_SERVER"
+    }
+  }
+}
